@@ -10,9 +10,4 @@ $(function(){
     lineTop: 140
   }
   $('#new_signature').signaturePad(signatureOptions);
-
-  // $('#new_signature').submit(function(e) {
-    // e.preventDefault();
-    // console.log($('.output').val());
-  // });
 });
