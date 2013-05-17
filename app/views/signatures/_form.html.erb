@@ -17,7 +17,11 @@
   </div>
   <div class="field">
     <%= f.label :signature %><br>
-    <%= f.text_field :signature %>
+
+    <div class="sig sigWrapper">
+      <canvas class="pad" width="724" height="150"></canvas>
+      <%= f.hidden_field :signature, class: "output" %>
+    </div>
   </div>
   <div class="actions">
     <%= f.submit %>
