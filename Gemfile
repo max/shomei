@@ -6,9 +6,7 @@ gem 'rails', '4.0.0.rc1'
 gem 'puma'
 gem 'pg'
 
-# User Heroku gems to run Rails 4 applications
-gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
-gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+gem 'redcarpet'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc1'
@@ -30,6 +28,12 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.0.1'
+
+# User Heroku gems to run Rails 4 applications
+group :production do
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
