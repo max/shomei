@@ -26,8 +26,6 @@ class SignaturesController < ApplicationController
   def create
     @signature = Signature.new(signature_params)
 
-    binding.pry
-
     respond_to do |format|
       if @signature.save
         format.html { redirect_to @signature, notice: 'Signature was successfully created.' }
