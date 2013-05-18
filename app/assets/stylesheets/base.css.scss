@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Proxima Nova", "helvetica neue", helvetica, arial, geneva, sans-serif;
+  font-size: 18px;
+}
+
+h1 + h1 {
+  margin-bottom: 2em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 748px;
+}
+
+.nda {
+  padding: 20px;
+
+  h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  padding-bottom: 300px;
+}
+
+form {
+  background: white;
+  bottom: 0;
+  position: fixed;
+}
