@@ -1,20 +1,43 @@
-# salesforce.com, inc.
-# GUEST CONFIDENTIALITY AGREEMENT
+<h1>
+  salesforce.com, inc.<br>
+  GUEST CONFIDENTIALITY AGREEMENT
+</h1>
 
 THIS GUEST CONFIDENTIALITY AGREEMENT (this “**Agreement**”) is made and entered
 into as of Effective Date below.
 
-"SFDC"
+<table>
+  <tr>
+    <td>
+      <strong>"SFDC"</strong>
+    </td>
 
-salesforce.com, inc., a Delaware corporation and any other present or future
-entity controlling, controlled by, or under common control with such
-salesforce.com, inc. (including without limitation Heroku)
+    <td>
+      salesforce.com, inc., a Delaware corporation and any other present or
+      future entity controlling, controlled by, or under common control with such
+      salesforce.com, inc. (including without limitation Heroku)
+    </td>
+  </tr>
 
-having its principal place of business at
+  <tr>
+    <td>
+      having its principal place of business at
+    </td>
 
-Landmark at One Market Street, Suite 300, San Francisco, California, 94105
+    <td>
+      Landmark at One Market Street, Suite 300, San Francisco, California, 94105
+    </td>
+  </tr>
 
-"Guest"
+  <tr>
+    <td>
+      <strong>"Guest"</strong>
+    </td>
+
+    <td>
+    </td>
+  </tr>
+</table>
 
 Subject to the terms of this Agreement, SFDC may disclose to Guest Confidential
 Information (as defined below).

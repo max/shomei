@@ -19,11 +19,11 @@
     <%= f.label :signature %><br>
 
     <div class="sig sigWrapper">
-      <canvas class="pad" width="724" height="150"></canvas>
+      <canvas class="pad" width="678" height="150"></canvas>
       <%= f.hidden_field :signature, class: "output" %>
     </div>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit value: "Sign Document", class: "button" %>
   </div>
 <% end %>

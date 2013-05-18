@@ -7,7 +7,9 @@
 $(function(){
   var signatureOptions = {
     drawOnly: true,
-    lineTop: 140
+    lineMargin: 0,
+    lineTop: 140,
+    penColour: '#6E5BAA'
   }
   $('#new_signature').signaturePad(signatureOptions);
 });
