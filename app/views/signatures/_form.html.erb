@@ -1,25 +1,21 @@
 <%= form_for(@signature) do |f| %>
   <% if @signature.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@signature.errors.count, "error") %> prohibited this signature from being saved:</h2>
-
-      <ul>
-      <% @signature.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
+    <% @signature.errors.full_messages.each do |msg| %>
+      <p class="error"><%= msg %></p>
+    <% end %>
   <% end %>
 
   <div class="field">
     <%= f.text_field :name, placeholder: 'Full Name', class: 'name' %>
   </div>
+
   <div class="field">
     <div class="sig sigWrapper">
       <canvas class="pad" width="650" height="150"></canvas>
       <%= f.hidden_field :signature, class: "output" %>
     </div>
   </div>
+
   <div class="actions">
     <%= f.submit value: "Submit Document", class: "button" %>
   </div>
