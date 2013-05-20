@@ -1,8 +1,8 @@
 @import "reset";
 @import "bourbon";
 
-$purple: #6E5BAA;
-$blue: #51A7E8;
+$purple: #8E44AD;
+$blue: #3498DB;
 $red: #E74C3C;
 
 $text-color: #2D2D2D;
@@ -109,7 +109,6 @@ form {
   input[type="submit"] {
     padding: 8px 24px;
 
-    @include linear-gradient(lighten($highlight-color, 5%), darken($highlight-color, 5%));
     -webkit-appearance: none;
     background-color: $highlight-color;
     border: none;
@@ -117,6 +116,20 @@ form {
     color: white;
     font-family: inherit;
     font-size: inherit;
+  }
+
+  .sig {
+    position: relative;
+
+    &:before {
+      bottom: 14px;
+      display: block;
+      position: absolute;
+
+      color: $line-color;
+      content: "×";
+      font-size: 50px;
+    }
   }
 
   .error {

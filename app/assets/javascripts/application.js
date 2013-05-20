@@ -9,7 +9,7 @@ $(function(){
     drawOnly: true,
     lineMargin: 0,
     lineTop: 140,
-    penColour: '#6E5BAA'
+    penColour: '#2D2D2D'
   }
   $('#new_signature').signaturePad(signatureOptions);
 });
