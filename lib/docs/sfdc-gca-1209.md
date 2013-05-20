@@ -1,7 +1,6 @@
-<h1>
-  salesforce.com, inc.<br>
-  GUEST CONFIDENTIALITY AGREEMENT
-</h1>
+# Guest Confidentiality Agreement
+
+salesforce.com, inc.
 
 THIS GUEST CONFIDENTIALITY AGREEMENT (this “**Agreement**”) is made and entered
 into as of Effective Date below.

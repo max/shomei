@@ -12,14 +12,11 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
+    <%= f.text_field :name, placeholder: 'Full Name' %>
   </div>
   <div class="field">
-    <%= f.label :signature %><br>
-
     <div class="sig sigWrapper">
-      <canvas class="pad" width="678" height="150"></canvas>
+      <canvas class="pad" width="650" height="150"></canvas>
       <%= f.hidden_field :signature, class: "output" %>
     </div>
   </div>
