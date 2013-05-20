@@ -3,6 +3,7 @@
 
 $purple: #6E5BAA;
 $blue: #51A7E8;
+$red: #E74C3C;
 
 $text-color: #2D2D2D;
 $highlight-color: $blue;
@@ -116,5 +117,11 @@ form {
     color: white;
     font-family: inherit;
     font-size: inherit;
+  }
+
+  .error {
+    margin-bottom: 0.75em;
+
+    color: $red;
   }
 }

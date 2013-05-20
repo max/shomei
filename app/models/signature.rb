@@ -1,5 +1,5 @@
 class Signature < ActiveRecord::Base
-  validates :name, presence: true
+  validates :name, presence: true, uniqueness: true
   validates :signature, presence: true
 
   def signature=(signature)

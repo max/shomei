@@ -12,7 +12,7 @@
   <% end %>
 
   <div class="field">
-    <%= f.text_field :name, placeholder: 'Full Name' %>
+    <%= f.text_field :name, placeholder: 'Full Name', class: 'name' %>
   </div>
   <div class="field">
     <div class="sig sigWrapper">
@@ -21,6 +21,6 @@
     </div>
   </div>
   <div class="actions">
-    <%= f.submit value: "Sign Document", class: "button" %>
+    <%= f.submit value: "Submit Document", class: "button" %>
   </div>
 <% end %>
