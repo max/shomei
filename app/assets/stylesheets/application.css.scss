@@ -108,7 +108,7 @@ form {
   input[type="submit"] {
     padding: 8px 24px;
 
-    @include linear-gradient(lighten($highlight-color, 10%), darken($highlight-color, 5%));
+    @include linear-gradient(lighten($highlight-color, 5%), darken($highlight-color, 5%));
     -webkit-appearance: none;
     background-color: $highlight-color;
     border: none;
