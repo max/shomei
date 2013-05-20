@@ -55,6 +55,9 @@ strong {
     margin: 2em 0;
     width: 100%;
 
+    border-collapse: collapse;
+    border-spacing: 0;
+
     td {
       padding: 10px;
       width: 50%;
@@ -99,12 +102,13 @@ form {
   }
 
   input[type="submit"] {
-    padding: 8px 16px;
+    padding: 8px 24px;
 
+    @include linear-gradient(#58B1F5, #4EA0DF);
     -webkit-appearance: none;
-    background: $blue;
+    background-color: $blue;
     border: none;
-    border-radius: 4px;
+    border-radius: 3px;
     color: white;
     font-family: inherit;
     font-size: inherit;
