@@ -8,7 +8,7 @@ into as of Effective Date below.
 <table>
   <tr>
     <td>
-      <strong>"SFDC"</strong>
+      <strong>“SFDC”</strong>
     </td>
 
     <td>
@@ -30,7 +30,7 @@ into as of Effective Date below.
 
   <tr>
     <td>
-      <strong>"Guest"</strong>
+      <strong>“Guest”</strong>
     </td>
 
     <td>
