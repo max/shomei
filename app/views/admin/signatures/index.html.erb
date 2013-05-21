@@ -1,0 +1,23 @@
+<h1 class="page-header">Signatures</h1>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Document</th>
+      <th>Signed At</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @signatures.each do |signature| %>
+      <tr>
+        <td><%= signature.name %></td>
+        <td>Guest Confidentiality Agreement</td>
+        <td><%= signature.created_at %></td>
+        <td><%= link_to 'Delete', admin_signature_path(signature), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-mini btn-danger' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

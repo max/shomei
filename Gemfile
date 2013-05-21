@@ -14,6 +14,9 @@ gem 'sass-rails', '~> 4.0.0.rc1'
 # Use Bourbon SCSS mixins
 gem 'bourbon'
 
+# Use Bootstrap
+gem 'twitter-bootstrap-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 

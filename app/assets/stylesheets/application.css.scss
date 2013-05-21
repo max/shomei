@@ -9,6 +9,19 @@ $text-color: #2D2D2D;
 $highlight-color: $blue;
 $line-color: #CCC;
 
+@mixin button {
+  padding: 8px 24px;
+
+  -webkit-appearance: none;
+  background-color: $highlight-color;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
 body {
   color: $text-color;
   font-family: "freight-sans-pro", "helvetica neue", helvetica, arial, geneva, sans-serif;
@@ -107,15 +120,7 @@ form {
   }
 
   input[type="submit"] {
-    padding: 8px 24px;
-
-    -webkit-appearance: none;
-    background-color: $highlight-color;
-    border: none;
-    border-radius: 3px;
-    color: white;
-    font-family: inherit;
-    font-size: inherit;
+    @include button;
   }
 
   .sig {
@@ -136,5 +141,20 @@ form {
     margin-bottom: 0.75em;
 
     color: $red;
+  }
+}
+
+.thank-you {
+  margin: 5em 0;
+
+  text-align: center;
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  a {
+    @include button;
   }
 }
