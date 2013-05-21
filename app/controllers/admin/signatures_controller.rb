@@ -1,5 +1,6 @@
 class Admin::SignaturesController < Admin::AdminController
   before_action :set_signature, only: [:destroy]
+  http_basic_authenticate_with name: ENV['AUTH_USER'], password: ENV['AUTH_PASSWORD'] if Rails.env.production?
 
   def index
     @signatures = Signature.all
