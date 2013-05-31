@@ -4,6 +4,7 @@
 $purple: #8E44AD;
 $blue: #3498DB;
 $red: #E74C3C;
+$gray: #95A5A6;
 
 $text-color: #2D2D2D;
 $highlight-color: $blue;
@@ -121,6 +122,11 @@ form {
 
   input[type="submit"] {
     @include button;
+  }
+
+  .clearButton {
+    @include button;
+    background: $gray;
   }
 
   .sig {
