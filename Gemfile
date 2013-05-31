@@ -56,5 +56,5 @@ end
 # gem 'capistrano', group: :development
 
 # Use debugger
-gem 'pry-debugger', group: [:development]
+# gem 'pry-debugger', group: [:development]
 # gem 'debugger', group: [:development, :test]
