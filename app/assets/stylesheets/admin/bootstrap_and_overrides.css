@@ -6,10 +6,6 @@
   =require twitter-bootstrap-static/fontawesome
   */
 
-body {
-  padding-top: 60px;
-}
-
 .page-header {
   margin-bottom: 32px;
 }

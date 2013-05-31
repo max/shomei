@@ -20,22 +20,18 @@
   </head>
 
   <body>
-    <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-static-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-
-          <a class="brand" href="<%= admin_root_path %>">Shomei</a>
+          <a class="brand" href="<%= admin_root_path %>">Heroku Shomei</a>
         </div>
       </div>
     </div>
 
-    <div class="container page">
-      <%= yield %>
+    <div class="content" style="position: relative;">
+      <div class="container page">
+        <%= yield %>
+      </div>
     </div>
   </body>
 </html>
