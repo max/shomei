@@ -172,3 +172,10 @@ form {
     @include button;
   }
 }
+
+@media print {
+  .clearButton,
+  input[type="submit"] {
+    display: none;
+  }
+}
