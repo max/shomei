@@ -1,6 +1,8 @@
 # Shomei
 
-A simple NDA and signature pad app for [Heroku][https://www.heroku.com/].
+A simple NDA and signature pad app for [Heroku][https://www.heroku.com/]:
+
+![http://cl.ly/image/28002C0C3C2V](http://cl.ly/image/28002C0C3C2V/content#.png)
 
 ## Installing locally
 
