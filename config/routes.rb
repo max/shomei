@@ -4,7 +4,7 @@ Shomei::Application.routes.draw do
   get '/thanks' => 'signatures#thank_you', as: 'thank_you_signature'
 
   namespace :admin do
-    resources :signatures, only: [:index, :destroy]
+    resources :signatures, only: [:index, :show, :destroy]
 
     root 'signatures#index'
   end
