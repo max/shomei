@@ -6,6 +6,10 @@ class Admin::SignaturesController < Admin::AdminController
     @signatures = Signature.all
   end
 
+  def show
+    @signature = Signature.find(params[:id])
+  end
+
   def destroy
     @signature.destroy
     redirect_to admin_signatures_url

@@ -15,7 +15,7 @@
       <tr>
         <td><%= signature.name %></td>
         <td>Guest Confidentiality Agreement</td>
-        <td><%= signature.created_at %></td>
+        <td><%= link_to signature.created_at, [:admin, signature] %></td>
         <td><%= link_to 'Delete', admin_signature_path(signature), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-mini btn-danger' %></td>
       </tr>
     <% end %>
