@@ -117,7 +117,7 @@ form {
     font-weight: bold;
   }
 
-  input[type="text"] {
+  input[type="text"], input[type="email"] {
     @include box-sizing(border-box);
     margin-bottom: 1em;
     padding: 8px;
