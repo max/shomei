@@ -2,6 +2,7 @@ class SignaturesController < ApplicationController
   def new
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, space_after_headers: true)
     nda = File.read(Rails.root.join('lib/docs/sfdc-gca-1209.md'))
+    puts nda
 
     @nda = markdown.render(nda)
     @signature = Signature.new
@@ -10,7 +11,7 @@ class SignaturesController < ApplicationController
   def create
     @signature = Signature.new(signature_params)
 
-    if @signature.save
+    if @signature.save!
       redirect_to thank_you_signature_path
     else
       render action: 'new'
