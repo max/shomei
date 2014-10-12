@@ -2,7 +2,6 @@ class SignaturesController < ApplicationController
   def new
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, space_after_headers: true)
     nda = File.read(Rails.root.join('lib/docs/sfdc-gca-1209.md'))
-    puts nda
 
     @nda = markdown.render(nda)
     @signature = Signature.new
